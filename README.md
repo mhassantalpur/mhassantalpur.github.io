@@ -1,3 +1,4 @@
-# mhasantalpur.github.io
+# mhassantalpur.github.io
 Personal Website
-My personal Website CNAME points to mmhasantalpur.github.io
+My personal Website CNAME points to mhassantalpur.github.io
+
