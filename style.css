@@ -3,18 +3,33 @@
   heigh: 100vh;
   position: relative;
 }
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #2adabc;
+  color: white;
+}
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 5px 10px rgba(0,0,0,0,0.2);
+  box-shadow: 5px 10px 30px rgba(0,0,0,0,0.2);
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 1;
   background-color: #FFFFFF;
-  
+
+}
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+html {
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -29,5 +44,77 @@ ul {
   list-style: none;
 }
 a {
+  text-decoration: none;
+}
+.logo img{
+  height: 45px;
+}
+nav ul{
+  display: flex;
+}
+nav ul li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #585b5b;
+  letter-spacing: 1px;
+}
+/* on hover effect to make it pop */
+nav ul li a:hover {
+  background-color: #2adabc;
+}
+.introduction {
+  text-align: center;
+  justify-content: center;
+}
+.profile-pic img{
+  height: 500px;
+  width: 500px;
+  margin-top: 100px;
+}
+.profile-pic div{
+  display: flex;
+  justify-content: center;
+}
+.main-text {
+  font-family: optima;
+}
+.main-text p{
+  line-height: 1.6;
+}
+.interests {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.about {
+  font-family: optima;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.about p{
+  line-height: 1.6;
+}
+.contact {
+  font-family: optima;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.contact p{
+  line-height: 1.6;
+}
+.coms li a:hover {
+  background-color: #2adabc;
+  text-decoration: none;
+}
+.coms a{
   text-decoration: none;
 }
