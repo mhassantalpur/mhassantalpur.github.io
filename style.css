@@ -1,8 +1,33 @@
-h1 {
-  color: burlywood;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 48px;
-  letter-spacing: 10px;
-  text-align: right;
-  text-transform: uppercase;
+#main {
+  width: 100%;
+  heigh: 100vh;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 10px rgba(0,0,0,0,0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #FFFFFF;
+  
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  scroll-behavior: smooth;
+}
+*{
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
